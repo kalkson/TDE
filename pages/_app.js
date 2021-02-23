@@ -1,7 +1,22 @@
-import '../styles/globals.css'
+import React from 'react';
+import propTypes from 'prop-types';
+import GlobalStyle from '../styles/GlobalStyle';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => (
+  <>
+    <GlobalStyle />
+    <Component {...pageProps} />
+  </>
+);
 
-export default MyApp
+MyApp.propTypes = {
+  Component: propTypes.oneOfType([propTypes.string, propTypes.func]).isRequired,
+  pageProps: propTypes.shape(),
+};
+
+MyApp.defaultProps = {
+  pageProps: {},
+};
+
+export default MyApp;
