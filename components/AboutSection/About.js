@@ -1,14 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import StyledAbout from './About.styled';
-import Heading from '../Heading/Heading';
+import StyledAbout, { StyledBackground } from './About.styled';
+import Heading from '../Atoms/Heading/Heading';
 import AboutContent from './AboutContent/AboutContent';
-
-const StyledBackground = styled.div`
-  width: 100%;
-  background: #152549;
-  height: fit-content;
-`;
 
 const About = () => (
   <StyledBackground>

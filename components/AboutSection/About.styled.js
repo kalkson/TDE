@@ -13,4 +13,10 @@ const StyledAbout = styled.section`
   }
 `;
 
+export const StyledBackground = styled.div`
+  width: 100%;
+  background: #152549;
+  height: fit-content;
+`;
+
 export default StyledAbout;

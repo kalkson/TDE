@@ -1,7 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import StyledFeaturedItem from './FeaturedItem.styled';
-import Heading from '../../Heading/Heading';
+import Heading from '../../Atoms/Heading/Heading';
 import Paragraph from '../Paragraph/Paragraph';
 
 const FeaturedItem = ({ heading, children }) => (

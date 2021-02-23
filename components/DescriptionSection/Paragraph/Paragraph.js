@@ -28,7 +28,7 @@ const Paragraph = ({ children }) => {
         start: 'top top',
       }
     );
-  });
+  }, []);
 
   return <StyledParagraph ref={paragraph$}>{children}</StyledParagraph>;
 };
