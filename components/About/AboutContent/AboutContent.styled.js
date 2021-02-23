@@ -11,8 +11,8 @@ const StyledAboutContent = styled.div`
   @media ${breakpoints.tablet} {
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
-    margin: 120px 0;
+    justify-content: space-space-around;
+    margin: 120px 0 0;
     align-items: center;
     max-width: 100%;
   }

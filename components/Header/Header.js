@@ -109,9 +109,9 @@ const StyledNav = styled.nav`
 `;
 
 const StyledBackground = styled.div`
-  width: 100vw;
+  width: 100%;
   height: fit-content;
-  background: url('assets/icons/background-1.svg') left bottom no-repeat;
+  background: url('assets/icons/background-1.svg') center bottom no-repeat;
 `;
 
 const Header = () => {

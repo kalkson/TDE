@@ -5,7 +5,7 @@ import Heading from '../Heading/Heading';
 import AboutContent from './AboutContent/AboutContent';
 
 const StyledBackground = styled.div`
-  width: 100vw;
+  width: 100%;
   background: #152549;
   height: fit-content;
 `;

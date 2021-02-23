@@ -3,6 +3,7 @@ import Head from 'next/head';
 import PageLayout from '../layout/layout';
 import Header from '../components/Header/Header';
 import About from '../components/About/About';
+import Description from '../components/Description/Description';
 
 const Root = () => (
   <>
@@ -12,6 +13,7 @@ const Root = () => (
     <PageLayout>
       <Header />
       <About />
+      <Description />
     </PageLayout>
   </>
 );

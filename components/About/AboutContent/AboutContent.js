@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import propTypes from 'prop-types';
 import StyledAboutContent from './AboutContent.styled';
 import GirlSVG from '../../../public/assets/icons/girl-enjoy.svg';
 
@@ -119,7 +118,5 @@ const AboutContent = () => {
     </StyledAboutContent>
   );
 };
-
-AboutContent.propTypes = {};
 
 export default AboutContent;

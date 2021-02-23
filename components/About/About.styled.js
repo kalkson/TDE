@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledAbout = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
+  padding: 100px 0 0;
 
   .about {
     &__heading {
