@@ -9,7 +9,7 @@ import breakpoints from '../../styles/breakpoints';
 
 const StyledHeader = styled.header`
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
   min-height: 800px;
 
   .hero-text {
